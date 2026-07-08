@@ -99,7 +99,7 @@ html(lang="hu" x-data="{ kosar: [], modalNyitva: false, sotetMod: false, get kos
                     span(x-text="tetel.nev")
                     div
                       span.badge.bg-danger.rounded-pill.me-2(x-text="tetel.ar + ' Ft'")
-                      button.btn.btn-sm.btn-outline-secondary(@click="nav.splice(index, 1)") ❌
+                      button.btn.btn-sm.btn-outline-secondary(@click="kosar.splice(index, 1)") ❌
             div.border-top.pt-3.d-flex.justify-content-between.fw-bold
               span Végösszeg:
               span.text-success(x-text="vegosszeg + ' Ft'")
